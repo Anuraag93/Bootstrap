@@ -1,6 +1,20 @@
 
-/* header*/
+body, .jumbotron{
+	font-family: arial;
+	background-color: #f0f0f0;
 
+}
+.light{
+	background-color: #fff;
+}
+.dark{
+	background-color: #cccccc;
+}
+/* header*/
+.search{
+	border:0;
+	margin-left:10px;
+}
 #menu-toggle {
 	width: 16px;
 	padding: 17px;
@@ -33,9 +47,80 @@
 #showcase {
 	padding: 40px;
 	max-height: 400px;
-	max-width:600px;
+	max-width: 40%;
+	background-color: #c997de;
+	color: #fff;
+	margin-bottom: 60px;
 }
 #showcase-img{
 
-	height: 400px;
+	max-height: 400px;
+}
+.showcase-body{
+	padding: 40px;
+}
+.button-1{
+	background-color: #fff;
+	color: #c997de;
+	width:80%;
+	border-radius:30px;
+}
+
+
+
+.left-side{
+
+	color: #333333;
+	padding:60px;
+	margin-left: 20px;
+
+}
+.name{
+	padding: 20px;
+}
+#author-img{
+	max-height: 40px;
+}
+.side-head{
+	padding:20px 0;
+}
+#side-img{
+	max-height: 90px;
+	padding-bottom: 20px;
+}
+.about{
+	padding: 20px;
+}
+
+.links li a{
+	text-decoration: none;
+	padding:20px;
+	color:#363636;
+	opacity: 0.6;
+}
+.links li a:hover{
+	color:#46aee8;
+	opacity: 1;
+}
+
+.genre{
+	padding:30px 30px 0 30px;
+	margin-top:50px;
+	border-bottom: 1px solid #ebe5e5;
+}
+.bookshelf{
+	margin-top:30px;
+}
+#main-img{
+	max-height:300px;
+
+}
+.main-body{
+	padding: 40px;
+}
+.box{
+	margin-top: 50px;
+	padding:20px;
+	width: 80%;
+
 }
