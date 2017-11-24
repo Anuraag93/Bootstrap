@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap tutorials</title>
+<!--bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#fff;">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse Category <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <span class="icon-input-btn"><span class="glyphicon glyphicon-search"></span> <input type="text" class="form-control" placeholder="Search Book"></span>
+
+            </div>
+
+          </form>
+
+          <h3 class="brand">read<b>books</b></h3>
+
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li><p><span class="glyphicon glyphicon-menu-hamburger" id="menu-toggle"></span>  Menu</p>
+
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron">
+      <div id="showcase" class="container bg-danger">
+        <div >
+
+          <div class="media">
+            <div class="media-left media-middle">
+              <a href="#">
+                <img id="showcase-img"class="media-object" src="img/big-magic.jpg">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">BIG MAGIC: Creative Living Beyond Fear <br>
+              <small>by Elizabeth Gilbert</small></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada fringilla nunc in iaculis.</p>
+              <p><a href="#" class="btn btn-danger" role="button">Button</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div style="height:400px;"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

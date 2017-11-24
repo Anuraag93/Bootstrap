@@ -1,0 +1,41 @@
+
+/* header*/
+
+#menu-toggle {
+	width: 16px;
+	padding: 17px;
+	margin-left: 20px;
+	cursor: pointer;
+	opacity: 0.2;
+}
+
+#menu-toggle:hover {
+	opacity: 0.6;
+}
+.navbar {
+    position: relative;
+		margin-bottom: 0;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+		margin: 0;
+		padding: 10px 0 ;
+}
+
+/* jumbotron */
+.jumbotron{
+	padding: 0;
+	max-height: 400px;
+}
+#showcase {
+	padding: 40px;
+	max-height: 400px;
+	max-width:600px;
+}
+#showcase-img{
+
+	height: 400px;
+}
