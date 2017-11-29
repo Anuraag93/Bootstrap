@@ -1,1 +1,4 @@
-use top:80px to move down the picture in the container.
+
+use top: 80px; to move down the picture in the container.
+and put position: absolute;.
+
